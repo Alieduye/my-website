@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <!--[ == Default Meta == ]-->
+    <link rel="stylesheet" href="/style.css" />
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="/" rel="canonical" />
+    <meta content="" name="description" />
+    <link href="/base64/favicon.ico" rel="icon" type="image/x-icon" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="blogger" name="generator" />
+    <meta content="#0e1019" name="theme-color" />
+    <meta content="#0e1019" name="msapplication-navbutton-color" />
+    <link href="/base64/" rel="image_src" />
+    <!--[ == Title == ]-->
+    <title>يلا شوت برو - Yalla Shoot Pro الجديد الرسمي | متابعة لحظية لمباريات كورة القدم</title>
+    <!--[ == Required == ]-->
+    <meta content="https://www.facebook.com/yallashoot.pro" property="fb:pages" />
+    <meta content="https://www.facebook.com/yallashoot.pro" property="fb:admins" />
+
+    
+</head>
+<body class="fade-in">
+    <!-- HEADER -->
+    <header>
+        <div class="STING-WEB-Header">
+            <!-- LOGO -->
+            <div class="STING-WEB-Header-Logo">
+                <a href="/"><h1 style="font-size: 0;">Yalla Shoot Pro</h1>
+                <img src="/base64/Logo.png" alt="Yalla Shoot Pro"></a>
+            </div>
+            <!-- FAST -->
+            <div class="STING-WEB-Toggle">
+                <span class="STING-WEB-Lang_SVG"></span>
+                <a href="https://api.whatsapp.com/send?text=تصفح%20أحدث%20المباريات%20الآن!" target="_blank"><span class="STING-WEB-Share_SVG"></span></a>
+            </div>
+        </div>
+    </header>
+
+<!-- TVs -->
+<style>
+    .STING-WEB-Video-Mo { position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background-color: #000; display: none; }
+    .STING-WEB-Mo-Play { position: relative; width: 100%; height: 75%; margin: 0 auto; }
+    .STING-WEB-Mo-Play:after { content: "شاهد جميع المباريات بدون تقطيع فقط وحصريا علي تطبيق - Dawrez Play"; color: #fff; z-index: 999; position: absolute; left: 0; right: 0; text-align: center; font-size: 18px; width: 80%; margin: 0 auto; line-height: 33px; margin-top: 20px; }
+    .STING-WEB-Tv_SVG { background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 4.98951C5 4.01835 5 3.53277 5.20249 3.2651C5.37889 3.03191 5.64852 2.88761 5.9404 2.87018C6.27544 2.85017 6.67946 3.11953 7.48752 3.65823L18.0031 10.6686C18.6708 11.1137 19.0046 11.3363 19.1209 11.6168C19.2227 11.8621 19.2227 12.1377 19.1209 12.383C19.0046 12.6635 18.6708 12.886 18.0031 13.3312L7.48752 20.3415C6.67946 20.8802 6.27544 21.1496 5.9404 21.1296C5.64852 21.1122 5.37889 20.9679 5.20249 20.7347C5 20.467 5 19.9814 5 19.0103V4.98951Z' stroke='%2300dd75' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") }video { width: 100%; height: 100%; }
+    .STING-WEB-Channels { display: grid; gap: 8px; align-items: center; justify-items: center; width: 93%; margin: 15px auto; }
+    .STING-WEB-Channel { display: flex; align-items: center; justify-items: center; height: 32px; gap: 12px; border: 2px solid #1f2429cc; border-radius: 12px; position: relative; width: 100%; padding: 2px 10px; background: #15191d70; }
+    .STING-WEB-Channel span { font-size: 14px; }
+    .STING-WEB-Channel img { width: 30px; height: 30px; border-radius: 6px; object-fit: contain; }
+    .noted:after { content: "NO"; background: #ff0000; position: absolute; left: 0; top: 0; font-size: 12px; color: #fff; padding: 2px 5px; border-radius: 8px 0 5px 0; }
+</style>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <div id="STING-WEB-Tvs" style="width: 90%;margin: 0 auto;"><div class="STING-WEB-PIN" style="width: 90%; margin: 0 auto;"><div class="STING-WEB-TITLE_SVG"></div><h2 class="STING-WEB-TITLE">القنوات</h2></div>
+    <div class="STING-WEB-Channels">
+        <div class="STING-WEB-Channel" id="beIN-Sports-News" onclick="openChannel(this.id)"><img src="/base64/beIN-Sports-Logo.png" alt="beIN Sports"/>
+            <span>beIN Sports News</span></div>
+        <div class="STING-WEB-Channel" id="beIN-Sports-1" onclick="openChannel(this.id)"><img src="/base64/beIN-Sports-Logo.png" alt="beIN Sports"/>
+            <span>beIN Sports 1</span></div>
+        <div class="STING-WEB-Channel" id="beIN-Sports-2" onclick="openChannel(this.id)"><img src="/base64/beIN-Sports-Logo.png" alt="beIN Sports"/>
+            <span>beIN Sports 2</span></div>
+        <div class="STING-WEB-Channel" id="beIN-Sports-3" onclick="openChannel(this.id)"><img src="/base64/beIN-Sports-Logo.png" alt="beIN Sports"/>
+            <span>beIN Sports 3</span></div>
+        <div class="STING-WEB-Channel" id="beIN-Sports-4" onclick="openChannel(this.id)"><img src="/base64/beIN-Sports-Logo.png" alt="beIN Sports"/>
+            <span>beIN Sports 4</span></div>
+        <div class="STING-WEB-Channel" id="beIN-Sports-5" onclick="openChannel(this.id)"><img src="/base64/beIN-Sports-Logo.png" alt="beIN Sports"/>
+            <span>beIN Sports 5</span></div>
+        <div class="STING-WEB-Channel" id="beIN-Sports-6" onclick="openChannel(this.id)"><img src="/base64/beIN-Sports-Logo.png" alt="beIN Sports"/>
+            <span>beIN Sports 6</span></div>
+        <div class="STING-WEB-Channel noted" id="beIN-Sports-Xtra-1" onclick="openChannel(this.id)"><img src="/base64/beIN-Sports-Logo.png" alt="beIN Sports"/>
+            <span>beIN Sports Xtra 1</span></div>
+        <div class="STING-WEB-Channel noted" id="beIN-Sports-Xtra-2" onclick="openChannel(this.id)"><img src="/base64/beIN-Sports-Logo.png" alt="beIN Sports"/>
+            <span>beIN Sports Xtra 2</span></div>
+        <div class="STING-WEB-Channel" id="SSC-Sports-1" onclick="openChannel(this.id)"><img src="/base64/SSC-Logo.png" alt="SSC Sports"/>
+            <span>SSC Sports 1</span></div>
+        <div class="STING-WEB-Channel" id="SSC-Sports-2" onclick="openChannel(this.id)"><img src="/base64/SSC-Logo.png" alt="SSC Sports"/>
+            <span>SSC Sports 2</span></div>
+        <div class="STING-WEB-Channel" id="SSC-Sports-3" onclick="openChannel(this.id)"><img src="/base64/SSC-Logo.png" alt="SSC Sports"/>
+            <span>SSC Sports 3</span></div>
+        <div class="STING-WEB-Channel" id="SSC-Sports-4" onclick="openChannel(this.id)"><img src="/base64/SSC-Logo.png" alt="SSC Sports"/>
+            <span>SSC Sports 4</span></div>
+        <div class="STING-WEB-Channel noted" id="SSC-Sports-5" onclick="openChannel(this.id)"><img src="/base64/SSC-Logo.png" alt="SSC Sports"/>
+            <span>SSC Sports 5</span></div>
+        <div class="STING-WEB-Channel noted" id="SSC-Extra-Sports-1" onclick="openChannel(this.id)"><img src="/base64/SSC-Logo.png" alt="SSC Sports"/>
+            <span>SSC Extra Sports 1</span></div>
+        <div class="STING-WEB-Channel noted" id="SSC-Extra-Sports-2" onclick="openChannel(this.id)"><img src="/base64/SSC-Logo.png" alt="SSC Sports"/>
+            <span>SSC Extra Sports 2</span></div>
+        <div class="STING-WEB-Channel noted" id="SSC-Extra-Sports-3" onclick="openChannel(this.id)"><img src="/base64/SSC-Logo.png" alt="SSC Sports"/>
+            <span>SSC Extra Sports 3</span></div>
+        <div class="STING-WEB-Channel" id="On-Time-Sports-1" onclick="openChannel(this.id)"><img src="/base64/On-Time-Sports-Logo.png" alt="On Time Sports"/>
+            <span>On Time Sports 1</span></div>
+        <div class="STING-WEB-Channel" id="On-Time-Sports-2" onclick="openChannel(this.id)"><img src="/base64/On-Time-Sports-Logo.png" alt="On Time Sports"/>
+            <span>On Time Sports 2</span></div>
+        <div class="STING-WEB-Channel" id="MBC-Masr-1" onclick="openChannel(this.id)"><img src="/base64/MBC-Masr-1-Logo.png" alt="MBC Masr"/>
+            <span>MBC Masr 1</span></div>
+        <div class="STING-WEB-Channel" id="MBC-Masr-2" onclick="openChannel(this.id)"><img src="/base64/MBC-Masr-2-Logo.png" alt="MBC Masr"/>
+            <span>MBC Masr 2</span></div>
+        <div class="STING-WEB-Channel" id="Dubai-Sports-1" onclick="openChannel(this.id)"><img src="/base64/Dubai-Sports.png" alt="Dubai Sports"/>
+            <span>Dubai Sports 1</span></div>
+        <div class="STING-WEB-Channel" id="Dubai-Sports-2" onclick="openChannel(this.id)"><img src="/base64/Dubai-Sports.png" alt="Dubai Sports"/>
+            <span>Dubai Sports 2</span></div>
+        <div class="STING-WEB-Channel" id="Dubai-Sports-3" onclick="openChannel(this.id)"><img src="/base64/Dubai-Sports.png" alt="Dubai Sports"/>
+            <span>Dubai Sports 3</span></div>
+        <div class="STING-WEB-Channel" id="Sharqa-Sports-1" onclick="openChannel(this.id)"><img src="/base64/Sharqa-Sports.png" alt="Dubai Sports"/>
+            <span>Sharqa Sports 1</span></div>
+    </div>
+</div>
+<div id="videoModal" class="STING-WEB-Video-Mo" >
+    <div class="STING-WEB-Mo-Play">
+        <video id="videoPlayer" controls></video>
+        <iframe id="videoFrame" width="100%" height="100%" frameborder="0" allowfullscreen style="display:none;"></iframe>
+    </div>
+</div>
+    <script>
+        function openChannel(channelId) {
+            const m3u8Urls = {
+                "beIN-Sports-News": "https://www.youtube.com/embed/O_02mf1vpQo",
+                "beIN-Sports-1": "https://live3.beinconnect.us/YallaGoalApp/beINSports1.m3u8",
+                "beIN-Sports-2": "https://live3.beinconnect.us/YallaGoalApp/beINSports2.m3u8",
+                "beIN-Sports-3": "https://live3.beinconnect.us/YallaGoalApp/beINSports3.m3u8",
+                "beIN-Sports-4": "https://live3.beinconnect.us/YallaGoalApp/beINSports4.m3u8",
+                "beIN-Sports-5": "https://live3.beinconnect.us/YallaGoalApp/beINSports5.m3u8",
+                "beIN-Sports-6": "https://live3.beinconnect.us/YallaGoalApp/beINSports6.m3u8",
+                "beIN-Sports-Xtra-1": "",
+                "beIN-Sports-Xtra-2": "",
+
+                "SSC-Sports-1": "https://live3.beinconnect.us/YallaGoalApp/SSC1.m3u8",
+                "SSC-Sports-2": "https://live3.beinconnect.us/YallaGoalApp/SSC2.m3u8",
+                "SSC-Sports-3": "https://live3.beinconnect.us/YallaGoalApp/SSC3.m3u8",
+                "SSC-Sports-4": "https://live3.beinconnect.us/YallaGoalApp/SSC4.m3u8",
+                "SSC-Sports-5": "",
+                "SSC-Extra-Sports-1": "",
+                "SSC-Extra-Sports-2": "",
+                "SSC-Extra-Sports-3": "",
+
+                "On-Time-Sports-1": "https://live3.beinconnect.us/YallaGoalApp/OnTime1.m3u8",
+                "On-Time-Sports-2": "https://live3.beinconnect.us/YallaGoalApp/OnTime2.m3u8",
+
+                "MBC-Masr-1": "https://mbc1-enc.edgenextcdn.net/out/v1/d5036cabf11e45bf9d0db410ca135c18/index.m3u8",
+                "MBC-Masr-2": "https://shls-masr2-enc.edgenextcdn.net/out/v1/f683685242b549f48ea8a5171e3e993a/index.m3u8",
+
+                "Dubai-Sports-1": "https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist_b4000000.m3u8",
+                "Dubai-Sports-2": "https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist_b1300000.m3u8",
+                "Dubai-Sports-3": "https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist_b1300000.m3u8",
+
+                "Sharqa-Sports-1": "https://svs.itworkscdn.net/smc4sportslive/smc4tv.smil/smc4sportspublish/smc4tv_source/chunks.m3u8",
+
+            };
+        const videoUrl = m3u8Urls[channelId];
+        if (videoUrl) {
+            const videoPlayer = document.getElementById('videoPlayer');
+            const videoFrame = document.getElementById('videoFrame');
+            if (videoUrl.endsWith('.m3u8')) {
+                if (Hls.isSupported()) {
+                    const hls = new Hls();
+                    hls.loadSource(videoUrl);
+                    hls.attachMedia(videoPlayer);
+                } else if (videoPlayer.canPlayType('application/vnd.apple.mpegurl')) {
+                    videoPlayer.src = videoUrl;
+                }
+                videoPlayer.style.display = 'block';
+                videoFrame.style.display = 'none';
+            } else {
+                videoFrame.src = videoUrl;
+                videoPlayer.style.display = 'none';
+                videoFrame.style.display = 'block';
+            }
+            document.getElementById('videoModal').style.display = 'flex';
+        }
+    }
+    function closeModal() {
+        const videoPlayer = document.getElementById('videoPlayer');
+        const videoFrame = document.getElementById('videoFrame');
+        videoPlayer.pause();
+        videoPlayer.src = '';
+        videoFrame.src = '';
+        document.getElementById('videoModal').style.display = 'none';
+    }
+    window.onload = function () {
+        history.pushState(null, null, location.href);
+        window.onpopstate = function () {
+            history.pushState(null, null, location.href);
+            closeModal();
+        };
+    };
+</script>
+<!-- MOBILE -->
+<div class="STING-WEB-Mobile">
+        <!-- MATCHES -->
+    <a href="/" onclick="setActive('Matches')"><div class="STING-WEB-Mobile-Ico" id="Matches"><span class="STING-WEB-Matches_SVG"></span><span>المباريات</span></div></a>
+        <!-- TVS -->
+    <a href="/channels/" onclick="setActive('Tvs')"><div class="STING-WEB-Mobile-Ico" id="Tvs"><span class="STING-WEB-Tv_SVG"></span><span class="active-span">القنوات</span></div> </a>
+        <!-- STANDINGS -->
+    <a href="/standings/" onclick="setActive('Ranking')"><div class="STING-WEB-Mobile-Ico" id="Ranking"><span class="STING-WEB-Ranking_SVG"></span><span>الترتيب</span></div></a>
+        <!-- NEWS -->
+    <!-- <a href="/news/" onclick="setActive('News')"><div class="STING-WEB-Mobile-Ico" id="News"><span class="STING-WEB-News_SVG"></span><span>الأخبار</span></div></a> -->
+        <!-- SETTINGS -->
+    <a href="/settings/" onclick="setActive('Settings')"><div class="STING-WEB-Mobile-Ico" id="Settings"><span class="STING-WEB-Setting_SVG"></span><span>الإعدادات</span></div></a>
+</div>
+    <script>
+        function setActive(activeId) {
+            const icons = document.querySelectorAll('.STING-WEB-Mobile-Ico');
+            icons.forEach(icon => {
+                icon.classList.remove('active');
+                const span = icon.querySelector('span:last-child');
+                span.classList.remove('active-span');
+            });
+            const activeIcon = document.getElementById(activeId);
+            if (activeIcon) {
+                activeIcon.classList.add('active');
+                const activeSpan = activeIcon.querySelector('span:last-child');
+                activeSpan.classList.add('active-span');
+            }
+        }
+        document.addEventListener('DOMContentLoaded', () => {
+            setActive('Tvs');
+        });
+    </script>
+</body>
+</html> 
