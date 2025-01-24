@@ -135,7 +135,7 @@
                 const timeZone = dateInput.getAttribute("time"); 
                 const apiUrl = `https://www.yanb8.com/api/matches/?date=${dateValue}&lang=27&time=${timeZone}`;
                 const matchesContainer = document.querySelector(".STING-WEB-Matches-Center");
-                matchesContainer.innerHTML = '<div class="STING-WEB-Loading-Matches"><img src="/base64/Loading.gif" style=" width: 40px; height: 40px; text-align: center; display: flex; align-items: center; margin: 0 auto; padding: 40px 0; "/></div>'; 
+                matchesContainer.innerHTML = '<div class="STING-WEB-Loading-Matches"><img src="base64/Loading.gif" style=" width: 40px; height: 40px; text-align: center; display: flex; align-items: center; margin: 0 auto; padding: 40px 0; "/></div>'; 
                 try {
                     const response = await fetch(apiUrl);
                     if (!response.ok) {
@@ -186,7 +186,7 @@
                                 const matchDiv = document.createElement("div");
                                 matchDiv.className = "STING-WEB-Match"; 
                                 matchDiv.innerHTML = `
-                                <a href="/matches/?id=${match["Match-id"]}">
+                                <a href="matches/?id=${match["Match-id"]}">
                                     <div class="STING-WEB-Match-Right">           
                                         <div class="STING-WEB-Match-Right-T">  
                                             <div class="STING-WEB-Team-Info">
@@ -314,7 +314,7 @@
             <!-- MATCHES -->
         <a href="/" onclick="setActive('Matches')"><div class="STING-WEB-Mobile-Ico" id="Matches"><span class="STING-WEB-Matches_SVG"></span><span class="active-span">المباريات</span></div></a>
             <!-- TVS -->
-        <a href="/channels/index.html" onclick="setActive('Tvs')"><div class="STING-WEB-Mobile-Ico" id="Tvs"><span class="STING-WEB-Tv_SVG"></span><span>القنوات</span></div> </a>
+        <a href="channels/index.html" onclick="setActive('Tvs')"><div class="STING-WEB-Mobile-Ico" id="Tvs"><span class="STING-WEB-Tv_SVG"></span><span>القنوات</span></div> </a>
             <!-- STANDINGS -->
         <a href="/standings/" onclick="setActive('Ranking')"><div class="STING-WEB-Mobile-Ico" id="Ranking"><span class="STING-WEB-Ranking_SVG"></span><span>الترتيب</span></div></a>
             <!-- NEWS -->
